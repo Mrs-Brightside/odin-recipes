@@ -1,1 +1,2 @@
 # odin-recipes
+This project consists of creating a recipe website, where there should be a main page with the list of recipes, to which the pages with the recipes themselves are linked. The project should mirror the knowledge in html in the structure of a web page, such as the creation of head and body, with titles, paragraphs, images, lists, etc.
