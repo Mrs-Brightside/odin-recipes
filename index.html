@@ -1,20 +1,32 @@
 <!DOCTYPE html>
 <html lang="pt">
-<!--I'm portuguese, so I decided to make this website in my native language-->
     <head>
         <meta charset="utf-8">
         <title>Aquele caderno de receitas</title>
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barriecito&display=swap">
     </head>
     
     <body>
-        <h1>Aquele caderno de receitas</h1>
-        <img src="./recipes/images/caderno-de-receitas.jpg" alt="Aquele caderno de receitas">
-        <h3>Uma mistura das receitas de sobremesas dos que me são próximos</h3>
-        <p>Porque o que é doce nunca amargou!</p>
-        <ul>
-            <li><a href="recipes/bolo-de-maria-joão.html">Bolo de Maria João</a></li>
-            <li><a href="recipes/churros-assados.html">Churros Assados</a></li>
-            <li><a href="recipes/brigadeiro-de-nutell.html">Brigadeiros de <em>Nutella</em></a></li>
-        </ul>   
+        <header class="black-header"><h1>Aquele caderno de receitas</h1></header>
+        <h3 class="subtitle">Uma mistura das receitas de sobremesas dos que me são próximos</h3>
+        <p class="descricao">Porque o que é doce nunca amargou!</p>
+        <div class="lista-rec">
+            <div class="bmr">
+                <img class="img" src="../odin-recipes/recipes/images/bolo-de-maria-joão.jpg" alt="Bolo de Maria João">
+                <h2>Bolo de Maria João</h2>
+                <a href="recipes/bolo-de-maria-joão.html"><button class="button">ler receita</button></a>
+            </div>
+            <div class="ca">
+                <img class="img" src="../odin-recipes/recipes/images/Churros-Assados.jpg" alt="Churros Assados">
+                <h2>Churros Assados</h2>
+                <a href="recipes/churros-assados.html"><button class="button">ler receita</button></a>
+            </div>
+            <div class="bn">
+                <img class="img" src =../odin-recipes/recipes/images/brigadeiro-de-nutella.jpg alt="Brigadeiros de Nutella">
+                <h2>Brigadeiros de <em>Nutella</em></h2>
+                <a href="recipes/brigadeiro-de-nutell.html"><button class="button">ler receita</button></a>
+            </div>
+        </div>
     </body>
 </html>
