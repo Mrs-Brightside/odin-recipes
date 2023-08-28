@@ -3,37 +3,62 @@
     <head>
         <meta charset="utf-8">
         <title>Aquele caderno de receitas</title>
+        <link rel="stylesheet" href="style2.css" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barriecito&family=Libre+Baskerville=swap">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barriecito&family=Inter:wght@300=swap">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;700&display=swap">
     </head>
+    
     <body>
-        <h1>Churros Assados</h1>
-        <h2>da cozinha da mãe do Sandro</h2>
-        <img src="./images/Churros-Assados.jpg" alt="Imagem dos Churros Assados">
-        <h3>Descrição</h3>
-        <p>Uma receita de churros assados, para comer os as compatas e chocolates preferidos.</p>
-        <p>Tem o bónus de não serem tão caloricos quanto os churros fritos.</p> 
-        <h3>Ingrdientes</h3>
-        <ul>
-            <li>240ml (malga) de <strong>água</strong></li>
-            <li>100gr de <strong>manteiga</strong> (duas colheres cheias)</li>
-            <li>2 colheres de sopa de <strong>açúcar amarelo</strong></li>
-            <li>1 pitada de <strong>sal</strong></li>
-            <li>120gr (1 malga) de <strong>farinha</strong></li>
-            <li>1 a 2 <strong>ovos</strong></li>
-            <li>1 colher de sopa de <strong>extracto de baunilha</strong> ou 2 cascas de <srtong>limão</srtong></li>
-        </ul>
-        <h3>Preparação</h3>
-        <ol>
-            <li>Pré-aquecer o forno a 200º.</li>
-            <li>Coloca-se a água, a manteiga, o sal, o açucar e a baunilha (ou limão) numa panela e leva-se a ferver, misturando bem.</li>
-            <li>Assim que ferver, desliga-se e junta-se a farinha (de uma vez).</li>
-            <li>Espera-se um pouco enquanto a farinha coze na temperatura da água.</li>
-            <li>Mistura-se bem até a massa não se colar às mãos e se soltar da panela.</li>
-            <li>Espera-se que arrefeça um pouco e juntam-se os dois ovos, um a um.</li>
-            <li>Volta-se a misturar bem com uma espátula ou uma colher.</li>
-            <li>Coloca-se a massa num saco de confeitar e fazem-se os churros, sobre papel vegetal.</li>
-            <li>Leva-se ao forno por cerca de 20 minutos, ou até dourar.</li>
-        </ol>
-        <p>Não te esqueças de polvilhar com açúcar e canela em pó e servir com o tem creme preferido, no meu caso, <em>Nutella</em>.Bom proveito!</p>
-        <a href="../index.html">Voltar à página principal</a>
+        
+        <div class="card">
+            <div class="imagem">
+            <a class="back-button" href="../index.html"><img class="back-button-img" src="../recipes/images/back-button.png"></a>
+            </div>
+            <div class="title">
+                <div class="barra-superior-direita">
+                    <button class="logos-button"><p id="subscrever">Subscrever</p></button>
+                    <button class="logos-button"><img class="logos" src="../recipes/icons/search.png"></button>
+                    <button class="logos-button"><img class="logos" src="../recipes/icons/menu.png"></button>
+                </div>
+                <h1 class="line">Churros Assados</h1>
+                <div class="rating">
+                    <img class="star" src="../recipes/icons/star.png">
+                    <img class="star" src="../recipes/icons/star.png">
+                    <img class="star" src="../recipes/icons/star.png">
+                    <img class="star" src="../recipes/icons/star-b.png">
+                    <img class="star" src="../recipes/icons/star-b.png">
+                    <p id="rating-text">3.4 de 5</p>
+                </div>
+                <p class="descricao">In bibendum ante ut magna dapibus, nec vestibulum velit placerat. Praesent luctus nulla elit, faucibus accumsan nunc tincidunt et. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque commodo ipsum placerat vulputate faucibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vestibulum sit amet sem mattis, sagittis ipsum at, consequat erat. Praesent at scelerisque ante, ac convallis lacus. Nam id arcu porttitor, tincidunt ex id, iaculis erat.</p> 
+            </div>
+        </div>
+        
+        <div class="preparacao">
+            <h3>Ingrdientes</h3>
+            <ul>
+                <li>240ml (malga) de <strong>água</strong></li>
+                <li>100gr de <strong>manteiga</strong> (duas colheres cheias)</li>
+                <li>2 colheres de sopa de <strong>açúcar amarelo</strong></li>
+                <li>1 pitada de <strong>sal</strong></li>
+                <li>120gr (1 malga) de <strong>farinha</strong></li>
+                <li>1 a 2 <strong>ovos</strong></li>
+                <li>1 colher de sopa de <strong>extracto de baunilha</strong> ou 2 cascas de <srtong>limão</srtong></li>
+            </ul>
+            <h3>Preparação</h3>
+            <ol>
+                <li>Pré-aquecer o forno a 200º.</li>
+                <li>Coloca-se a água, a manteiga, o sal, o açucar e a baunilha (ou limão) numa panela e leva-se a ferver, misturando bem.</li>
+                <li>Assim que ferver, desliga-se e junta-se a farinha (de uma vez).</li>
+                <li>Espera-se um pouco enquanto a farinha coze na temperatura da água.</li>
+                <li>Mistura-se bem até a massa não se colar às mãos e se soltar da panela.</li>
+                <li>Espera-se que arrefeça um pouco e juntam-se os dois ovos, um a um.</li>
+                <li>Volta-se a misturar bem com uma espátula ou uma colher.</li>
+                <li>Coloca-se a massa num saco de confeitar e fazem-se os churros, sobre papel vegetal.</li>
+                <li>Leva-se ao forno por cerca de 20 minutos, ou até dourar.</li>
+            </ol>
+            <p>Não te esqueças de polvilhar com açúcar e canela em pó e servir com o tem creme preferido, no meu caso, <em>Nutella</em>.Bom proveito!</p>
+            <a href="../index.html">Voltar à página principal</a>
+        </div>
     </body>
 </html>

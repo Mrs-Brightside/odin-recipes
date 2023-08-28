@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.card {
+    position: sticky;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(232, 232, 232);
+    padding: 5%;
+    background-image: url(../recipes/images/leaves.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+
+.imagem {
+    width: 500px;
+    height: 800px;
+    background-image: url(../recipes/images/Churros-Assados.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+
+.back-button {
+    width: 50px;
+    position: relative;
+    top: 20px;
+    left: 20px;  
+}
+
+.back-button-img {
+    width: 50px;     
+}
+
+.back-button:hover {
+    opacity: 0.6;
+}
+
+.barra-superior-direita {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    opacity: 0.8;
+}
+
+#subscrever{
+    font-weight: 700;
+}
+
+.logos {
+    width: 20px;
+    height: 20px;
+    margin-left: 30px;
+}
+
+.logos-button {
+    background-color: transparent;
+    border: 0;
+}
+
+.logos-button:hover {
+    opacity: 0.4;
+    transform:scale(1.1)
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 50px;
+    padding-left: 70px;
+    width: 700px;
+}
+
+h1 {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 300;
+    color: rgb(65, 65, 65);
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+.rating {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.star{
+    width: 30px;
+    padding: 8px;
+}
+
+#rating-text {
+    padding-left: 10px;
+}
+
+.descricao {
+    margin-top: 50px;
+    color: rgb(66, 66, 66);
+    line-height: 30px;
+    font-size: 16px;
+}
+
+.preparacao {
+    margin-top: 500px;
+}
